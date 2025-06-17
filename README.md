@@ -52,9 +52,6 @@ if (!$koneksi) {
 
 ---
 
-![gambar](https://github.com/user-attachments/assets/bf9ad903-1f11-46e2-91c4-cd36dd86cf11)
-
-
 ## 🚀 Rencana Pengembangan (Opsional)
 
 - Export data ke PDF
