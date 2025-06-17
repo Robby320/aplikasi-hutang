@@ -51,6 +51,15 @@ if (!$koneksi) {
    - Password: `admin123` *(disimpan dalam md5 di database)*
 
 ---
+## 📸 Screenshots
+![gambar](https://github.com/user-attachments/assets/3414a6cc-f2f7-4caa-a1b2-cbf14205e73f)
+![gambar](https://github.com/user-attachments/assets/896a1e25-5438-491a-bca1-217e2700634b)
+![gambar](https://github.com/user-attachments/assets/0a9a1da4-deac-439d-bd9d-145ced13e5bd)
+![gambar](https://github.com/user-attachments/assets/bf9871f2-8b2e-46ef-aeb9-efbb6ede9880)
+
+
+
+
 
 ## 🚀 Rencana Pengembangan (Opsional)
 
