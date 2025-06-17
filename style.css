@@ -1,0 +1,289 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0fff4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #a5d6a7;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+a.btn {
+    padding: 8px 14px;
+    background-color: #66bb6a;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+a.btn:hover {
+    background-color: #4caf50;
+}
+
+form.filter-form {
+    margin-bottom: 20px;
+}
+
+form.filter-form input,
+form.filter-form select,
+form.filter-form button {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form.filter-form .btn {
+    background-color: #43a047;
+    color: #fff;
+    border: none;
+}
+
+form.filter-form .reset {
+    background-color: #ccc;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #66bb6a;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #a5d6a7;
+    padding: 8px;
+    vertical-align: top;
+}
+
+.aksi {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.aksi.edit {
+    color: #0277bd;
+}
+
+.aksi.hapus {
+    color: #d32f2f;
+}
+form.form-input {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e8f5e9;
+    border: 1px solid #a5d6a7;
+    border-radius: 8px;
+}
+
+form.form-input label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #2e7d32;
+}
+
+form.form-input input[type="text"],
+form.form-input input[type="number"],
+form.form-input input[type="date"],
+form.form-input textarea,
+form.form-input select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form.form-input .form-barang {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f1f8e9;
+    border: 1px dashed #aed581;
+    border-radius: 5px;
+}
+
+form.form-input .form-barang input {
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+
+form.form-input button,
+form.form-input input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #66bb6a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form.form-input button:hover,
+form.form-input input[type="submit"]:hover {
+    background-color: #4caf50;
+}
+
+.btn-kembali {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #b2dfdb;
+    color: #004d40;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+.btn-kembali:hover {
+    background-color: #80cbc4;
+}
+.logout-bar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #e0f8e0;
+    border-bottom: 1px solid #a8d5a8;
+}
+
+.logout-btn {
+    padding: 8px 16px;
+    background-color: #388e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: #2e7d32;
+}
+
+/* Tambahan khusus halaman login */
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0fff4;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    border: 2px solid #a5d6a7;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 20px;
+}
+
+.login-box .error {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-box input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #66bb6a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-box input[type="submit"]:hover {
+    background-color: #4caf50;
+}
+
+.form-barang {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hapus-barang {
+    padding: 6px 10px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hapus-barang:hover {
+    background-color: #b71c1c;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 8px 14px;
+    margin: 0 4px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.pagination a {
+    background-color: #c8e6c9;
+    color: #2e7d32;
+}
+
+.pagination a:hover {
+    background-color: #a5d6a7;
+}
+
+.pagination span {
+    background-color: #43a047;
+    color: white;
+}
